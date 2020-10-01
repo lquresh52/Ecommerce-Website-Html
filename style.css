@@ -1,3 +1,9 @@
+*{
+    height:0px;
+    width:0px;
+    box-sizing:border-box;
+}
+
 #wrapper{font-family: tahoma;}
 
 .container{
@@ -85,6 +91,11 @@
     color: white;
     background:#2097c5 ;
     margin-left: -100px;
+}
+.search-btn:hover{
+   color:white;
+    background-color:black;
+    transition: all .4s;
 }
 
 /*  user menu styling  */
